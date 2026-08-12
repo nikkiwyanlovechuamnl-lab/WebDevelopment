@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Student Information Form</h1>
+        <h4>Senior High School Enrollment---Grade 11</h4>
+        <fieldset>
+            <legend>Student Information</legend>
+            <img src="pic.jpg" width="200" height="200">
+            <form action="done.html" method="GET" target="_blank">
+            <label>First Name</label>
+            <input type="text" placeholder="Enter First Name" required>
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter Last Name" required>
+            <label>Middle Name</label>
+            <input type="text" placeholder="Enter Middle Name" required>
+            <br>
+            <br>
+            <label>Email Address</label>
+            <input type="email" placeholder="you@example.com" required>
+            <label>Password</label>
+            <input type="password" placeholder="Create a password" required>
+            <br>
+            <br>_+
+            <label>Age</label>
+            <input type="text" placeholder="e.g. 16" required>
+            <label>Birthday</label>
+            <input type="date" placeholder="mm/dd/yyyy" required>
+            <br>
+            <br>
+            <label>Contact Number</label>
+            <input type="number" placeholder="09XXXXXXXXX" required>
+            <br>
+            <br>
+            <label>Document:</label>
+            <input type="file" required> 
+            <br>
+        </form>
+        </fieldset>
+        <fieldset>
+            <legend>Student Information</legend>
+            <form>
+            <label>Student ID</label>
+            <input type="text" placeholder="e.g. 2526M00242">
+            <br>
+            <br>
+            <label>Grade Level</label>
+             <select>
+                <option>11</option>
+                <option>12</option>
+            </select>
+            <label>Strand</label>
+             <select>
+                <option>STEM</option>
+                <option>ABM</option>
+                <option>HUMSS</option>
+            </select>
+            <br>
+        </form>
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <form action="done.html" method="GET" target="_blank">
+                <label>Gender</label>
+                <br>
+                <input type="radio" name="gender" value="male">
+                <label>Male</label>
+                <input type="radio" name="gender" value="female">
+                <label>Female</label>
+                <input type="radio" name="gender" value="prefer not to say">
+                <label>Prefer not to say</label>
+                <br>
+                <br>
+                <label>Hobbies</label>
+                <br>
+                <input type="checkbox" name="hobbies" value="reading">
+                <label>Reading</label>
+                <input type="checkbox" name="hobbies" value="swimming">
+                <label>Swimming</label>
+                <input type="checkbox" name="hobbies" value="coding">
+                <label>Coding</label>
+                <input type="checkbox" name="hobbies" value="playing sports">
+                <label>Playing Sports</label>
+                <input type="checkbox" name="hobbies" value="watching movies">
+                <label>Watching Movies</label>
+                <br>
+                <input type="checkbox" name="hobbies" value="playing games">
+                <label>Playing Games</label>
+                <input type="checkbox" name="hobbies" value="music">
+                <label>Music</label>
+                <br>
+                <br>
+                <label>Complete Address</label>
+                <input type="text" placeholder="House No., Street, Barangay, City, Province" required><br>
+                
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+            </form>
+                </fieldset>
+  
+    

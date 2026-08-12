@@ -1,0 +1,108 @@
+<html>
+    <head> 
+        <title>CPU Scheduling</title>
+    </head>
+    <body>
+        <style>
+            .text {
+                text-align: right;
+            }
+            table, tr, th 
+            {
+                border:1px solid #000000;
+                background-color: #cdcbcb;
+                text-align: center;
+                
+            }
+            .chart {
+                size-adjust: 20px;
+            }
+        </style>
+        <table width="100%">
+            <tr>
+                <th>Process</th>
+                <th>AT</th>
+                <th>BT</th>
+                <th>CT</th>
+                <th>TAT</th>
+                <th>WT</th>
+            </tr>
+            <tr>
+                <th rowspan="4">
+                    P1
+                    <br>
+                    P2
+                    <br>
+                    P3
+                    <br>
+                    P4
+                </th>
+                <th rowspan="4">
+                    4
+                    <br>
+                    2
+                    <br>
+                    5
+                    <br>
+                    15
+                </th>
+                <th rowspan="4">
+                    5
+                    <br>
+                    3
+                    <br>
+                    2
+                    <br>
+                    4
+                </th>
+                
+                <th rowspan="4">
+                    10
+                    <br>
+                    5
+                    <br>
+                    12
+                    <br>
+                    19
+                </th>
+                
+                <th rowspan="4">
+                    6
+                    <br>
+                    3
+                    <br>
+                    7
+                    <br>
+                    4
+                </th>
+                
+                <th rowspan="4">
+                    1
+                    <br>
+                    0
+                    <br>
+                    5
+                    <br>
+                    0
+                </th>
+            </table>
+            <div class="text">
+                <h3>Ave: 5 Ave: 3</h3>
+            </div>
+            <br>
+            <div class="chart">
+            <table> 
+                <tr>
+                <th>idle</th>
+                <th>P2</th>
+                <th>P1</th>
+                <th>P3</th>
+                <th>idle</th>
+                <th>P4</th>
+                </tr>
+            </table>
+            <p>0    2    5   10   12   15   19</p>
+
+            </div>
+            </body>
+            </html>
